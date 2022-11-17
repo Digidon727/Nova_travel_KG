@@ -7,15 +7,15 @@
 }
 .reviews-card {
   display: flex;
-  min-width: 940px;
-
+  max-width: 740px;
+  min-height: 322px;
   background: #ededed;
   border-radius: 10px;
-  padding: 38px 40px;
+  padding: 38px 45px;
 }
 .reviews-card-img img {
-  max-width: 100%;
-
+  max-width: 245px;
+  height: 245px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   border-radius: 10px;
   margin-right: 28px;
@@ -33,14 +33,10 @@
 }
 
 .reviews-card-info p {
-  width: 595px;
+  max-width: 395px;
   font-weight: 500;
   line-height: 17px;
   color: #282828;
-}
-
-.types_excursions-title.reviews {
-  padding-bottom: 0;
 }
 
 /* Основные стили */
@@ -60,9 +56,7 @@
 
 /* Слайд */
 .slick-slide {
-  max-width: 10%;
-  display: flex;
-  justify-content: center;
+  max-width: 760px;
 }
 /* Слайд активный */
 .slick-slide.slick-active {
@@ -147,7 +141,7 @@
 }
 
 .slider__item {
-  padding: 2px 5px;
+  padding: 2px -5px;
 }
 .slider__item img {
   max-width: 100%;
@@ -193,5 +187,9 @@
   .reviews {
     padding: 0;
     margin-bottom: 40px;
+  }
+  .reviews-cards {
+    position: relative;
+    padding: 0;
   }
 }
