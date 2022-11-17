@@ -34,7 +34,7 @@
 }
 .header__nav-list {
   display: flex;
-  column-gap: 20px;
+  column-gap: 24px;
 }
 
 .header__nav_item-list:hover {
@@ -58,13 +58,13 @@
   color: #fff;
 }
 .header_content_info-title-text1 {
-  font-size: 72px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .header_content_info-title-text2 {
   color: #ffc700;
-  font-size: 32px;
+  font-size: 42px;
   font-family: "mr_KindlyJasmineG", arial;
   text-transform: lowercase;
 
@@ -78,7 +78,11 @@
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #fff;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+}
+.header_content_info-title-text4 {
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 .header_content_info-btn {
   display: flex;
@@ -257,12 +261,12 @@
       url("../../img/header/header2.png");
   }
   .header_content_info-title-text1 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .header_content_info-title-text2 {
     font-size: 25px;
-    margin-left: 130px;
+
     margin-bottom: 15px;
   }
 
