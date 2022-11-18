@@ -24,25 +24,28 @@
 
 .excursion__slider-card {
   max-width: 360px;
-  height: 550px;
+  height: 100%;
   color: #fff;
-  font-size: 12px;
-  padding: 0 16px;
+  font-size: 14px;
+  padding: 100px 16px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, #000000 100%),
     url(../../img/excurs/ex-card.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+  display: inline-flexbox;
+  align-items: center;
 }
 .excursion__slider-card h3 {
   color: #ffc700;
-  font-size: 14px;
-  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.excursion__slider_card-title {
+/* .excursion__slider_card-title {
   padding-top: 211px;
-}
+} */
 .excursion__slider_card-time {
   display: flex;
   column-gap: 10px;
@@ -50,13 +53,16 @@
 }
 .excursion__slider_card-text {
   max-width: 328px;
-  margin-bottom: 32px;
+  margin-bottom: 15px;
 }
 .excursion__slider_card-btn {
   color: #fff;
   padding: 12px 43px;
   background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
   border-radius: 40px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
 }
 
 .wrapper {
@@ -231,7 +237,7 @@
 
 @media (max-width: 380px) {
   .excursion__slider-card {
-    padding: 0 20px 50px;
+    padding: 20px 10px 50px;
   }
   .excursion__slider_card-btn {
     padding: 12px 50px;
@@ -254,10 +260,11 @@
 
 @media (max-width: 320px) {
   .excursion__slider-card {
-    padding: 0 10px 50px;
+    padding: 20px 10px 50px;
   }
   .excursion__slider_card-btn {
     padding: 12px 50px;
+    margin-bottom: 20px;
   }
   .slider {
     position: relative;

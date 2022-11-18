@@ -172,6 +172,9 @@
   .reviews-card-img img {
     margin: 0;
   }
+  .types_excursions-title {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -191,5 +194,8 @@
   .reviews-cards {
     position: relative;
     padding: 0;
+  }
+  .types_excursions-title {
+    margin-bottom: 50px;
   }
 }
