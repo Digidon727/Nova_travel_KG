@@ -82,7 +82,11 @@
     padding-left: 0;
     grid-gap: 5px;
   }
+  .pictures {
+    position: relative;
+  }
   .pictures__img:nth-of-type(2):hover {
+    display: inline-block;
     position: relative;
     top: 70px;
     left: 109px;
@@ -91,17 +95,20 @@
   }
 
   .pictures__img:nth-of-type(3):hover {
+    display: inline-block;
     position: relative;
     top: 70px;
     transform: scale(3.2);
   }
   .pictures__img:nth-of-type(4):hover {
+    display: inline-block;
     position: relative;
     top: 70px;
     right: 100px;
     transform: scale(3.2);
   }
   .pictures__img:nth-of-type(8):hover {
+    display: inline-block;
     position: relative;
     bottom: 37px;
     right: 50px;
