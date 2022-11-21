@@ -83,3 +83,34 @@
     grid-gap: 5px;
   }
 }
+
+@media (max-width: 320px) {
+  /* .pictures__img:nth-of-type(3) {
+    transition: 1s;
+  } */
+  .pictures__img:nth-of-type(2):hover {
+    position: relative;
+    top: 70px;
+    left: 109px;
+    height: 40%;
+    transform: scale(4.8);
+  }
+
+  .pictures__img:nth-of-type(3):hover {
+    position: relative;
+    top: 70px;
+    transform: scale(3.2);
+  }
+  .pictures__img:nth-of-type(4):hover {
+    position: relative;
+    top: 70px;
+    right: 100px;
+    transform: scale(3.2);
+  }
+  .pictures__img:nth-of-type(8):hover {
+    position: relative;
+    bottom: 37px;
+    right: 50px;
+    transform: scale(1.6);
+  }
+}
